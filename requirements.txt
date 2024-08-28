@@ -1,54 +1,54 @@
-absl-py==1.4.0
-astunparse==1.6.3
-cachetools==5.3.1
-certifi==2023.5.7
-charset-normalizer==3.1.0
-contourpy==1.0.7
-cycler==0.11.0
-flatbuffers==1.12  # Aligned with TensorFlow 2.8.3 requirements
-fonttools==4.39.4
-gast==0.4.0  # Aligned with TensorFlow 2.8.3 requirements
-google-auth==2.6.0  # Compatible with TensorFlow 2.8.3
-google-auth-oauthlib==0.4.6
-google-pasta==0.2.0
-grpcio==1.34.1  # Compatible with TensorFlow 2.8.3
-h5py==3.6.0  # Compatible with TensorFlow 2.8.3
-idna==3.4
-importlib-metadata==6.6.0
-importlib-resources==5.12.0
-keras==2.8.0
-Keras-Preprocessing==1.1.2
-kiwisolver==1.4.4
-libclang==16.0.0
-Markdown==3.4.3
-MarkupSafe==2.1.2
-matplotlib==3.7.1
-numpy==1.21.6  # Compatible with TensorFlow 2.8.3
-oauthlib==3.2.2
-opt-einsum==3.3.0
-packaging==23.1
-Pillow==9.5.0
-protobuf==3.19.6  # Keeping this version as required by TensorFlow 2.8.3
-pyasn1==0.5.0
-pyasn1-modules==0.3.0
-pyparsing==3.0.9
-python-dateutil==2.8.2
-requests==2.31.0
-requests-oauthlib==1.3.1
-rsa==4.9
-six==1.16.0
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.8.3
-tensorflow-addons==0.16.1
-tensorflow-estimator==2.8.0
-tensorflow-io-gcs-filesystem==0.24.0  # Compatible with TensorFlow 2.8.3
-termcolor==2.3.0
-tfimm==0.2.14
-typeguard==2.7.1  # Aligned with TensorFlow 2.8.3
-typing_extensions==4.0.1  # Compatible with TensorFlow 2.8.3
-urllib3==1.26.16
-Werkzeug==2.3.4
-wrapt==1.12.1  # Compatible with TensorFlow 2.8.3
-zipp==3.15.0
+absl-py==1.4.0  # Compatible, no change needed
+astunparse==1.6.3  # Compatible, no change needed
+cachetools==5.3.1  # Compatible, no change needed
+certifi==2023.5.7  # Compatible, no change needed
+charset-normalizer==3.1.0  # Compatible, no change needed
+contourpy==1.0.7  # Compatible, no change needed
+cycler==0.11.0  # Compatible, no change needed
+flatbuffers==23.5.26  # Compatible, no change needed
+fonttools==4.39.4  # Compatible, no change needed
+gast==0.5.4  # Compatible, no change needed
+google-auth==2.19.0  # Compatible, no change needed
+google-auth-oauthlib==0.4.6  # Compatible, no change needed
+google-pasta==0.2.0  # Compatible, no change needed
+grpcio==1.54.2  # Compatible, no change needed
+h5py==3.8.0  # Compatible, no change needed
+idna==3.4  # Compatible, no change needed
+importlib-metadata==6.6.0  # Compatible, no change needed
+importlib-resources==5.12.0  # Compatible, no change needed
+keras==2.17.0  # Update to match TensorFlow 2.17.0
+Keras-Preprocessing==1.1.2  # Compatible, no change needed
+kiwisolver==1.4.4  # Compatible, no change needed
+libclang==16.0.0  # Compatible, no change needed
+Markdown==3.4.3  # Compatible, no change needed
+MarkupSafe==2.1.2  # Compatible, no change needed
+matplotlib==3.7.1  # Compatible, no change needed
+numpy==1.24.3  # Compatible, no change needed
+oauthlib==3.2.2  # Compatible, no change needed
+opt-einsum==3.3.0  # Compatible, no change needed
+packaging==23.1  # Compatible, no change needed
+Pillow==9.5.0  # Compatible, no change needed
+protobuf==3.20.3  # Update for TensorFlow 2.17.0
+pyasn1==0.5.0  # Compatible, no change needed
+pyasn1-modules==0.3.0  # Compatible, no change needed
+pyparsing==3.0.9  # Compatible, no change needed
+python-dateutil==2.8.2  # Compatible, no change needed
+requests==2.31.0  # Compatible, no change needed
+requests-oauthlib==1.3.1  # Compatible, no change needed
+rsa==4.9  # Compatible, no change needed
+six==1.16.0  # Compatible, no change needed
+
+
+tensorboard-plugin-wit==1.8.1  # Compatible, no change needed
+tensorflow==2.17.0  # Update to TensorFlow 2.17.0
+
+tensorflow-estimator==2.17.0  # Update to match TensorFlow 2.17.0
+
+termcolor==2.3.0  # Compatible, no change needed
+tfimm==0.2.14  # Compatible, no change needed
+typeguard==4.0.0  # Compatible, no change needed
+typing_extensions==4.6.2  # Compatible, no change needed
+urllib3==1.26.16  # Compatible, no change needed
+Werkzeug==2.3.4  # Compatible, no change needed
+wrapt==1.15.0  # Compatible, no change needed
+zipp==3.15.0  # Compatible, no change needed
